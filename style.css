@@ -17,7 +17,12 @@ footer h2 {
 }
 
 .img-thumbnail {
-    float: left;
+    /* float: left; */
+
+}
+
+.image-wrapper {
+    text-align: center;
 }
 
 /* body {
