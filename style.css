@@ -4,6 +4,43 @@ img {
     margin-bottom: 50px;
 }
 
+.contactBody {
+    background-image: url(./images/building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.portfolioBody {
+    background-image: url(./images/building2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.indexBody {
+    background-image: url(./images/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* img should be 1400px but should be 2x as big good sorce for pics is unsplash.com and photopea.com can help resize photos*/
+hr {
+    background: white;
+}
+
+.contact-form {
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px gray;
+}
+
 footer {
     background-color: #0275d8;
     padding: 30px;
@@ -25,20 +62,3 @@ footer h2 {
 .image-wrapper {
     text-align: center;
 }
-
-/* body {
-    background-image: url(./images/building2.jpg);
-    background-size: cover;
-}
-
-hr {
-    background: white;
-}
-
-.contact-form {
-    background: rgba(0, 0, 0, .6);
-    color: white;
-    margin-top: 100px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 3px gray;
-} */

@@ -13,88 +13,68 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block">
-                <!-- hidden spacer to center brand on mobile --></span>
-            <h1 class="navbar-brand pl-5">John Robinson</h1>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <div class="contactBody">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block">
+                    <!-- hidden spacer to center brand on mobile --></span>
+                <h1 class="navbar-brand pl-5">John Robinson</h1>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+                <ul class="navbar-nav ml-auto flex-nowrap pr-5">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container contact-form">
+            <h1>Contact</h1>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <address>123 fake street slc ut</address>
+                    <p>Email: notfake@isfake.com</p>
+                    <p>Phone: 801-896-3958</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class="form-control" rows="7"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block">Send</button>
+                    </div>
+
+
+                </div>
             </div>
         </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-            <ul class="navbar-nav ml-auto flex-nowrap pr-5">
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container contact-form">
-        <h1>Contact</h1>
-        <hr>
-
-        <div class="row">
-            <div class="col-md-6">
-                <address>123 fake street slc ut</address>
-                <p>Email: notfake@isfake.com</p>
-                <p>Phone: 801-896-3958</p>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Email</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Message</label>
-                    <textarea class="form-control" rows="7"></textarea>
-                </div>
-                <div class="form-group">
-                    <button class="btn btn-primary btn-block">Send</button>
-                </div>
-
-
-            </div>
-        </div>
+        <footer>
+            <h2>© Copyright</h2>
+        </footer>
     </div>
-    <style>
-        body {
-            background-image: url(./images/building.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            background-attachment: fixed;
-        }
-
-        /* img should be 1400px but should be 2x as big good sorce for pics is unsplash.com and photopea.com can help resize photos*/
-        hr {
-            background: white;
-        }
-
-        .contact-form {
-            background: rgba(0, 0, 0, .6);
-            color: white;
-            margin-top: 100px;
-            padding: 20px;
-            box-shadow: 0px 0px 10px 3px gray;
-        }
-    </style>
-    <footer>
-        <h2>© Copyright</h2>
-    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
