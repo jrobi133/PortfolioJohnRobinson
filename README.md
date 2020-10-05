@@ -18,7 +18,7 @@ https://jrobi133.github.io/PortfolioJohnRobinson/index.html
 
 ## App Usage:
 
-Allows potential employers to see various projects that John Robinson has done, and make good decision on hiring. 
+Allows potential employers to see various projects that John Robinson has done, and make a good decision on hiring. 
 
 ## License Details:
 
