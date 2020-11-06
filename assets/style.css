@@ -69,3 +69,10 @@ footer h2 {
     text-align: center;
     margin-top: 25px;
 }
+
+.imgMe {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 25px;
+}
