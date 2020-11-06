@@ -5,7 +5,7 @@ img {
 }
 
 .contactBody {
-    background-image: url(./images/projectBackground1.jpg);
+    background-image: url(../images/projectBackground1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -13,7 +13,7 @@ img {
 }
 
 .portfolioBody {
-    background-image: url(./images/projectBackground1.jpg);
+    background-image: url(../images/projectBackground1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -21,7 +21,7 @@ img {
 }
 
 .indexBody {
-    background-image: url(./images/projectBackground1.jpg);
+    background-image: url(../images/projectBackground1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
